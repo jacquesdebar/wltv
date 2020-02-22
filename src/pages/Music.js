@@ -124,22 +124,49 @@ export default function Music() {
             }}
           >
             <Icon classes={{ root: classes.iconRoot }}>
-              <img className={classes.imageIcon} src={apple} />
+              <a
+                href="https://music.apple.com/us/artist/wilsonlikethevolleyball/1289135886"
+                target="_blank"
+              >
+                <img className={classes.imageIcon} src={apple} />
+              </a>
             </Icon>
             <Icon classes={{ root: classes.iconRoot }}>
-              <img className={classes.imageIcon} src={spotify} />
+              <a
+                href="https://open.spotify.com/artist/4hba9BjCS4J6XkfSaKyxL1"
+                target="_blank"
+              >
+                <img className={classes.imageIcon} src={spotify} />
+              </a>
             </Icon>
             <Icon classes={{ root: classes.iconRoot }}>
-              <img className={classes.imageIcon} src={soundcloud} />
+              <a
+                href="https://soundcloud.com/wilsonlikethevolleyball"
+                target="_blank"
+              >
+                <img className={classes.imageIcon} src={soundcloud} />
+              </a>
             </Icon>
             <Icon classes={{ root: classes.iconRoot }}>
-              <img className={classes.imageIcon} src={instagram} />
+              <a
+                href="https://www.instagram.com/wilsonlikethevolleyball_/"
+                target="_blank"
+              >
+                <img className={classes.imageIcon} src={instagram} />
+              </a>
             </Icon>
             <Icon classes={{ root: classes.iconRoot }}>
-              <img className={classes.imageIcon} src={twitter} />
+              <a href="https://twitter.com/wilsonlikethevo" target="_blank">
+                <img className={classes.imageIcon} src={twitter} />
+              </a>
             </Icon>
             <Icon classes={{ root: classes.iconRoot }}>
-              <img className={classes.imageIcon} src={youtube} />
+              <a
+                href="https://www.youtube.com/wilsonlikethevolleyball"
+                target="_blank"
+              >
+                <img className={classes.imageIcon} src={youtube} />
+              </a>
             </Icon>
           </Box>
         </Grid>
