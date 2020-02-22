@@ -1,37 +1,19 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
-import Icon from "@material-ui/core/Icon";
+import Menu from "../components/Menu";
 
-import classNames from "classnames";
-
-import MusicNoteIcon from "@material-ui/icons/MusicNote";
-import WorkIcon from "@material-ui/icons/Work";
-import SentimentVerySatisfiedIcon from "@material-ui/icons/SentimentVerySatisfied";
-
-import bandana from "../img/bandana.png";
-// import name from "../img/nameVDB.png";
-import apple from "../img/icons/apple.svg";
-import instagram from "../img/icons/instagram.svg";
-import spotify from "../img/icons/spotify.svg";
-import soundcloud from "../img/icons/soundcloud.svg";
-import twitter from "../img/icons/twitter.svg";
-import youtube from "../img/icons/youtube.svg";
+import logo from "../img/nameVW.png";
 
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    backgroundColor: "#009ce2"
+    backgroundColor: "#009ce2",
+    minHeight: "100vh"
   },
   container: {},
-  image: {
-    height: "100vh",
-    backgroundImage: `url(${bandana})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    backgroundPosition: "center"
+  logo: {
+    width: "700px"
   },
   intro: {
     height: "100vh",
@@ -42,14 +24,6 @@ const useStyles = makeStyles(theme => ({
     margin: theme.spacing(1),
     color: "white",
     borderColor: "white"
-  },
-  imageIcon: {
-    height: "100%",
-    color: "white"
-  },
-  iconRoot: {
-    textAlign: "center",
-    margin: theme.spacing(1)
   }
 }));
 
@@ -58,119 +32,18 @@ export default function Music() {
 
   return (
     <div className={classes.root}>
-      <Grid container direction="row-reverse">
-        <Grid item xs={12} md={6} className={classes.image} />
-        <Grid
-          container
-          item
-          xs={12}
-          md={6}
-          direction="column"
-          wrap="nowrap"
-          alignItems="center"
-          justify="center"
-          className={classes.intro}
-        >
-          <Box width={[0.9, 0.85, 0.6]}>
-            <h1>what's up! i'm wilson</h1>
-            <h2>//</h2>
-            <h2>//</h2>
-            <h2>//</h2>
-            <h2>
-              i like glitchy things and pretty things and friends and saturated
-              colors. i'm seattle based, my favorite colors are pink and blue,
-              and i would love it if you would share my music with your friends
-              :)
-            </h2>
-          </Box>
-          <Box
-            m={[4]}
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center"
-            }}
-          >
-            <Button
-              variant="outlined"
-              size="large"
-              startIcon={<SentimentVerySatisfiedIcon />}
-              className={classes.button}
-            >
-              Me
-            </Button>
-            <Button
-              variant="outlined"
-              size="large"
-              startIcon={<MusicNoteIcon />}
-              className={classes.button}
-            >
-              Music
-            </Button>
-            <Button
-              variant="outlined"
-              size="large"
-              startIcon={<WorkIcon />}
-              className={classes.button}
-            >
-              Work
-            </Button>
-          </Box>
-          <Box
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center"
-            }}
-          >
-            <Icon classes={{ root: classes.iconRoot }}>
-              <a
-                href="https://music.apple.com/us/artist/wilsonlikethevolleyball/1289135886"
-                target="_blank"
-              >
-                <img className={classes.imageIcon} src={apple} />
-              </a>
-            </Icon>
-            <Icon classes={{ root: classes.iconRoot }}>
-              <a
-                href="https://open.spotify.com/artist/4hba9BjCS4J6XkfSaKyxL1"
-                target="_blank"
-              >
-                <img className={classes.imageIcon} src={spotify} />
-              </a>
-            </Icon>
-            <Icon classes={{ root: classes.iconRoot }}>
-              <a
-                href="https://soundcloud.com/wilsonlikethevolleyball"
-                target="_blank"
-              >
-                <img className={classes.imageIcon} src={soundcloud} />
-              </a>
-            </Icon>
-            <Icon classes={{ root: classes.iconRoot }}>
-              <a
-                href="https://www.instagram.com/wilsonlikethevolleyball_/"
-                target="_blank"
-              >
-                <img className={classes.imageIcon} src={instagram} />
-              </a>
-            </Icon>
-            <Icon classes={{ root: classes.iconRoot }}>
-              <a href="https://twitter.com/wilsonlikethevo" target="_blank">
-                <img className={classes.imageIcon} src={twitter} />
-              </a>
-            </Icon>
-            <Icon classes={{ root: classes.iconRoot }}>
-              <a
-                href="https://www.youtube.com/wilsonlikethevolleyball"
-                target="_blank"
-              >
-                <img className={classes.imageIcon} src={youtube} />
-              </a>
-            </Icon>
-          </Box>
-        </Grid>
-      </Grid>
+      <Box
+        p={[4]}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column"
+        }}
+      >
+        <img src={logo} alt="logo" className={classes.logo} />
+        <Menu />
+      </Box>
     </div>
   );
 }
