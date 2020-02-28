@@ -4,3 +4,4 @@ export { default as Icons } from "./Icons";
 export { default as Layout } from "./Layout";
 export { default as Link } from "./Link";
 export { default as Menu } from "./Menu";
+export { default as Nav } from "./Nav";
