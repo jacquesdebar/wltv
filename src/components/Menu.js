@@ -28,30 +28,36 @@ export default () => {
         alignItems: "center"
       }}
     >
-      <Button
-        variant="outlined"
-        size="large"
-        startIcon={<SentimentVerySatisfiedIcon />}
-        className={classes.button}
-      >
-        Teach
-      </Button>
-      <Button
-        variant="outlined"
-        size="large"
-        startIcon={<MusicNoteIcon />}
-        className={classes.button}
-      >
-        Music
-      </Button>
-      <Button
-        variant="outlined"
-        size="large"
-        startIcon={<WorkIcon />}
-        className={classes.button}
-      >
-        Work
-      </Button>
+      <a href="/teach" style={{ textDecoration: "none" }}>
+        <Button
+          variant="outlined"
+          size="large"
+          startIcon={<SentimentVerySatisfiedIcon />}
+          className={classes.button}
+        >
+          Teach
+        </Button>
+      </a>
+      <a href="/music" style={{ textDecoration: "none" }}>
+        <Button
+          variant="outlined"
+          size="large"
+          startIcon={<MusicNoteIcon />}
+          className={classes.button}
+        >
+          Music
+        </Button>
+      </a>
+      <a href="/work" style={{ textDecoration: "none" }}>
+        <Button
+          variant="outlined"
+          size="large"
+          startIcon={<WorkIcon />}
+          className={classes.button}
+        >
+          Work
+        </Button>
+      </a>
     </Box>
   );
 };
