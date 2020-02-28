@@ -34,7 +34,7 @@ export default () => {
         startIcon={<SentimentVerySatisfiedIcon />}
         className={classes.button}
       >
-        Me
+        Teach
       </Button>
       <Button
         variant="outlined"
