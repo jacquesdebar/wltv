@@ -6,6 +6,7 @@ import Icons from "../components/Icons";
 import Menu from "../components/Menu";
 
 import bandana from "../img/bandana.png";
+import prof from "../img/prof.jpg";
 // import name from "../img/nameVDB.png";
 
 const useStyles = makeStyles(theme => ({
@@ -16,7 +17,7 @@ const useStyles = makeStyles(theme => ({
   container: {},
   image: {
     height: "100vh",
-    backgroundImage: `url(${bandana})`,
+    backgroundImage: `url(${prof})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center"
