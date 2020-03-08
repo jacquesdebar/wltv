@@ -1067,7 +1067,7 @@ export default function Music() {
         </Box>
         <h2 className={classes.noise}>make more noise.</h2>
 
-        <a href="/">
+        <a href="#top">
           <img src={ball} alt="logo" className={classes.logoBottom} />
         </a>
       </Box>
