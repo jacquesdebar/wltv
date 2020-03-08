@@ -12,7 +12,8 @@ const useStyles = makeStyles(theme => ({
   button: {
     margin: theme.spacing(1),
     color: "white",
-    borderColor: "white"
+    borderColor: "white",
+    width: 100
   }
 }));
 
@@ -23,9 +24,13 @@ export default () => {
     <Box
       m={[4]}
       style={{
-        display: "flex",
+        marginLeft: "auto",
+        marginRight: "auto",
+        textAlign: "center",
+        display: "flex wrap",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        width: "60%"
       }}
     >
       <a href="/teach" style={{ textDecoration: "none" }}>

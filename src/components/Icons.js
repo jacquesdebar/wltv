@@ -79,7 +79,7 @@ export default () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className={classes.imageIcon} src={twitter} alt="twitter" />
+          <img className={classes.imageIcon} src={twitter} alt="twitter icon" />
         </a>
       </Icon>
       <Icon classes={{ root: classes.iconRoot }}>
