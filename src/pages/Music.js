@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
 import Nav from "../components/Nav";
+import Fanlinks from "../components/Fanlinks";
 
 import ball from "../img/wltvWhite.png";
 import VerticalAlignTopIcon from "@material-ui/icons/VerticalAlignTop";
@@ -67,22 +68,15 @@ export default function Music() {
         }}
       >
         <Nav />
-        <p className={classes.introText}>
+        <h2 className={classes.introText}>
           {/*
             i have made a lot of music
           <br />
           <br /> 
           */}
-          over the past 13 years of my life, i have composed a discography of
-          over 70 published musical works across a variety of musical styles. i
-          am thrilled to say that as time goes on, i am producing more and
-          better music each year. looking back at the changes in my musicality
-          through different phases and projects reminds me that no matter where
-          you are in your music, you are always better than you were, and you
-          can always strive to be better. please use the links below to jump to
-          any music i have made in a specific genre that you may be interested
-          in.
-        </p>
+          i make lots of noise! here is most of it probably:
+        </h2>
+        <Fanlinks />
         <Box
           m={[4]}
           style={{

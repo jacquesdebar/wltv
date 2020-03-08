@@ -1,3 +1,4 @@
+export { default as Fanlink } from "./Fanlink";
 export { default as Footer } from "./Footer";
 export { default as Icons } from "./Icons";
 // export { default as Img } from './Img'

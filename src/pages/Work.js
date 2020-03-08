@@ -8,11 +8,14 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
     minHeight: "100vh"
   },
-  logo: {
-    width: "100px"
+  whiteText: {
+    color: "white"
   },
   email: {
-    color: "white"
+    color: "#E80185",
+    "&:hover": {
+      textDecoration: "underline"
+    }
   }
 }));
 
@@ -40,11 +43,19 @@ export default function Teach() {
             alignItems: "center"
           }}
         >
-          <h2>i make other people's noise sound better!</h2>
-          <h2>book mixing / mastering:</h2>
-          <a href="mailto: wltvmusic@gmail.com" className={classes.email}>
-            <h2>wltvmusic@gmail.com</h2>
-          </a>
+          <h2 className={classes.whiteText}>
+            i make other peoples noise sound better (for money{" "}
+            <span role="img" aria-label="emojis">
+              🤑😈
+            </span>
+            )
+          </h2>
+          <h2 className={classes.whiteText}>
+            book mixing / mastering at{" "}
+            <a href="mailto: wltvmusic@gmail.com" className={classes.email}>
+              wltvmusic@gmail.com
+            </a>
+          </h2>
         </Box>
       </Box>
     </div>
