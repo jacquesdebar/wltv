@@ -1,3 +1,6 @@
+body {
+  background-image: '../img/wlbg.png'
+}
 
 .flipper {
   display: flex;
@@ -16,7 +19,7 @@
 }
 
 .intro {
-  background-color: #009ce2;
+  /* background-color: #009ce2; */
   color: white;
 
   padding-left: 50px;

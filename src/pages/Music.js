@@ -94,17 +94,28 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
+            title="salty skin"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/759753076&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
             title="out of place"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/737725858&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
+
           <iframe
             width="100%"
             height="20"
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="bodhi"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/741148318&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -112,7 +123,16 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
+            title="fine prince"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/718534636&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="thick iron epilogue"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/699916156&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
@@ -130,8 +150,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="fly away"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/693041908&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -139,8 +159,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="work in regress"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/668795336&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -148,8 +168,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="breathe"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/664092104&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -157,8 +177,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="this isn't going to be the genre you expect"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/644466936&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -166,9 +186,10 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="anxious"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/606223470&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
+
           <iframe
             width="100%"
             height="20"
@@ -176,7 +197,7 @@ export default function Music() {
             frameborder="no"
             allow="autoplay"
             title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/603223431&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -184,8 +205,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="take ur time"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/603227331&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -193,8 +214,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="yours"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/594683526&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -202,8 +223,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="am i welcome here"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/598643292&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -211,8 +232,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="weirdchordshit"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/586766703&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -220,8 +241,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="cage in my chest"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/556637499&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -229,8 +250,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="we are"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/476651046&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -238,8 +259,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="just fine"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/462568935&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -247,8 +268,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="formula"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/427210068&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -256,8 +277,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="abandoned"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/425482011&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -265,8 +286,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="crystal coffin"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/418001668&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -274,8 +295,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="flowers"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/373389815&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -283,8 +304,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="august"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/340929089&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -292,8 +313,279 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="earthquake caused by cats"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327798091&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="caught up"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327798088&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="smack blues"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327798050&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="digit splash"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327798049&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="cyber burp"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327798047&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="launch"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327792936&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="expedition"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327792935&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="slingshot round the sun"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327792934&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="alien"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327792932&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="night shift"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327792931&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="cyber burp"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/276717941&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="motor control"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261271653&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="rubber chicken"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243203814&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="conveyor"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238572593&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="fury"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/236386607&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="forward"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/233269665&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="dance ii"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/233268861&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="eight track"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/233267883&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="dreki"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/213140333&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="partay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/211099067&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="strut"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/195622790&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="fury preview"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159721714&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="goliath remastered"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/140960817&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="goliath"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138612216&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="saved"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138605608&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="break"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138605529&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="dance"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138605408&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="colorless"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138605199&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="cascade"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138505587&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="thick"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/111111114&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="thick"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/111111114&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             style={{ border: 0, width: "100%", height: 42 }}
