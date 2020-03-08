@@ -7,6 +7,8 @@ import Nav from "../components/Nav";
 // import logo from "../img/nameVW.png";
 import ball from "../img/wltvWhite.png";
 
+import "../css/music.css";
+
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -67,9 +69,11 @@ export default function Music() {
             alignItems: "center"
           }}
         >
-          <Button variant="outlined" size="large" className={classes.button}>
-            electronic
-          </Button>
+          <a href="#electronic">
+            <Button variant="outlined" size="large" className={classes.button}>
+              electronic
+            </Button>
+          </a>
           <Button variant="outlined" size="large" className={classes.button}>
             lofi
           </Button>
@@ -87,7 +91,9 @@ export default function Music() {
           </Button>
         </Box>
         <Box style={{ marginTop: 32, width: "500px", maxWidth: "100%" }}>
-          <h2 className={classes.musicType}>electronic</h2>
+          <h2 className={classes.musicType} id="electronic">
+            electronic
+          </h2>
           <iframe
             width="100%"
             height="20"
@@ -307,6 +313,8 @@ export default function Music() {
             title="august"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/340929089&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
+          <hr />
+
           <iframe
             width="100%"
             height="20"
@@ -352,6 +360,18 @@ export default function Music() {
             title="cyber burp"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327798047&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
+          <hr />
+
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="launch"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/594683526&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+          <hr />
 
           <iframe
             width="100%"
@@ -398,6 +418,8 @@ export default function Music() {
             title="night shift"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327792931&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
+          <hr />
+
           <iframe
             width="100%"
             height="20"
@@ -488,6 +510,8 @@ export default function Music() {
             title="partay"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/211099067&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
+          <hr />
+
           <iframe
             width="100%"
             height="20"

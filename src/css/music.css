@@ -1,0 +1,10 @@
+hr {
+    height: 1px;
+    color: pink;
+    background-color: pink;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
