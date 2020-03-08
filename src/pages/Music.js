@@ -4,11 +4,8 @@ import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
 import Nav from "../components/Nav";
 
-// import logo from "../img/nameVW.png";
 import ball from "../img/wltvWhite.png";
 import VerticalAlignTopIcon from "@material-ui/icons/VerticalAlignTop";
-
-import bg from "../img/wlbg.png";
 
 import "../css/music.css";
 

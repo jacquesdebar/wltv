@@ -4,8 +4,6 @@ import Box from "@material-ui/core/Box";
 import { TwitterTweetEmbed } from "react-twitter-embed";
 import Nav from "../components/Nav";
 
-import bg from "../img/wlbg.png";
-
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,

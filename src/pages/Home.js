@@ -5,15 +5,11 @@ import Grid from "@material-ui/core/Grid";
 import Icons from "../components/Icons";
 import Menu from "../components/Menu";
 
-import bg from "../img/wlbg.png";
 import prof from "../img/prof.jpg";
-// import name from "../img/nameVDB.png";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1,
-    // backgroundColor: "#009ce2"
-    backgroundImage: `url(${bg})`
+    flexGrow: 1
   },
   container: {},
   image: {
@@ -25,7 +21,6 @@ const useStyles = makeStyles(theme => ({
   },
   intro: {
     height: "100vh",
-    // backgroundColor: "#009ce2",
     color: "white"
   }
 }));
