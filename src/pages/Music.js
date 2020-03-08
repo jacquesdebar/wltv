@@ -6,23 +6,29 @@ import Nav from "../components/Nav";
 
 // import logo from "../img/nameVW.png";
 import ball from "../img/wltvWhite.png";
+import VerticalAlignTopIcon from "@material-ui/icons/VerticalAlignTop";
+
+import bg from "../img/wlbg.png";
 
 import "../css/music.css";
 
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    backgroundColor: "#009ce2",
     minHeight: "100vh"
   },
   container: {},
   logo: {
     width: "100px"
   },
+  introText: {
+    color: "white",
+    maxWidth: 500,
+    width: "90%"
+  },
   logoBottom: {
     width: "60px",
-    marginTop: 24,
-    marginBottom: 64
+    marginTop: 24
   },
   intro: {
     height: "100vh",
@@ -42,6 +48,10 @@ const useStyles = makeStyles(theme => ({
   noise: {
     marginTop: 64,
     color: "white"
+  },
+  rocket: {
+    color: "white",
+    marginBottom: 64
   }
 }));
 
@@ -60,6 +70,22 @@ export default function Music() {
         }}
       >
         <Nav />
+        <p className={classes.introText}>
+          {/*
+            i have made a lot of music
+          <br />
+          <br /> 
+          */}
+          over the past 13 years of my life, i have composed a discography of
+          over 70 published musical works across a variety of musical styles. i
+          am thrilled to say that as time goes on, i am producing more and
+          better music each year. looking back at the changes in my musicality
+          through different phases and projects reminds me that no matter where
+          you are in your music, you are always better than you were, and you
+          can always strive to be better. please use the links below to jump to
+          any music i have made in a specific genre that you may be interested
+          in.
+        </p>
         <Box
           m={[4]}
           style={{
@@ -111,26 +137,8 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="salty skin"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/759753076&color=%23e80099&inverse=true&auto_play=false&show_user=true"
-          ></iframe>
-          <iframe
-            width="100%"
-            height="20"
-            scrolling="no"
-            frameborder="no"
-            allow="autoplay"
             title="out of place"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/737725858&color=%23e80099&inverse=true&auto_play=false&show_user=true"
-          ></iframe>
-          <iframe
-            width="100%"
-            height="20"
-            scrolling="no"
-            frameborder="no"
-            allow="autoplay"
-            title="bodhi"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/741148318&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -596,18 +604,261 @@ export default function Music() {
             title="cascade"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138505587&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
+          <hr />
+
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=260696199/size=small/bgcol=ffffff/linkcol=E80185/transparent=true/"
+            seamless
+            title="android adventures"
+          >
+            <a href="http://appx.bandcamp.com/album/android-adventures">
+              Android Adventures by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=260696199/size=small/bgcol=ffffff/linkcol=E80185/track=2405047741/transparent=true/"
+            seamless
+            title="forward"
+          >
+            <a href="http://appx.bandcamp.com/album/android-adventures">
+              Android Adventures by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=260696199/size=small/bgcol=ffffff/linkcol=E80185/track=3923150037/transparent=true/"
+            seamless
+            title="rubber chicken"
+          >
+            <a href="http://appx.bandcamp.com/album/android-adventures">
+              Android Adventures by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=260696199/size=small/bgcol=ffffff/linkcol=E80185/track=1885069132/transparent=true/"
+            seamless
+            title="strut"
+          >
+            <a href="http://appx.bandcamp.com/album/android-adventures">
+              Android Adventures by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=260696199/size=small/bgcol=ffffff/linkcol=E80185/track=342471772/transparent=true/"
+            seamless
+            title="goliath"
+          >
+            <a href="http://appx.bandcamp.com/album/android-adventures">
+              Android Adventures by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=260696199/size=small/bgcol=ffffff/linkcol=E80185/track=3984304717/transparent=true/"
+            seamless
+            title="dance ii"
+          >
+            <a href="http://appx.bandcamp.com/album/android-adventures">
+              Android Adventures by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=260696199/size=small/bgcol=ffffff/linkcol=E80185/track=2940286382/transparent=true/"
+            seamless
+            title="conveyor"
+          >
+            <a href="http://appx.bandcamp.com/album/android-adventures">
+              Android Adventures by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=260696199/size=small/bgcol=ffffff/linkcol=E80185/track=943963497/transparent=true/"
+            seamless
+            title="fury"
+          >
+            <a href="http://appx.bandcamp.com/album/android-adventures">
+              Android Adventures by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=260696199/size=small/bgcol=ffffff/linkcol=E80185/track=2186233775/transparent=true/"
+            seamless
+            title="dreki"
+          >
+            <a href="http://appx.bandcamp.com/album/android-adventures">
+              Android Adventures by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=260696199/size=small/bgcol=ffffff/linkcol=E80185/track=3638860939/transparent=true/"
+            seamless
+            title="roads"
+          >
+            <a href="http://appx.bandcamp.com/album/android-adventures">
+              Android Adventures by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=260696199/size=small/bgcol=ffffff/linkcol=E80185/track=1734876030/transparent=true/"
+            seamless
+            title="partay"
+          >
+            <a href="http://appx.bandcamp.com/album/android-adventures">
+              Android Adventures by APPX
+            </a>
+          </iframe>
+          <hr />
+
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=763587660/size=small/bgcol=ffffff/linkcol=E80185/transparent=true/"
+            seamless
+            title="logic"
+          >
+            <a href="http://appx.bandcamp.com/album/logic">Logic by APPX</a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=763587660/size=small/bgcol=ffffff/linkcol=E80185/track=656889120/transparent=true/"
+            seamless
+            title="colorless"
+          >
+            <a href="http://appx.bandcamp.com/album/logic">Logic by APPX</a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=763587660/size=small/bgcol=ffffff/linkcol=E80185/track=4086225921/transparent=true/"
+            seamless
+            title="break"
+          >
+            <a href="http://appx.bandcamp.com/album/logic">Logic by APPX</a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=763587660/size=small/bgcol=ffffff/linkcol=E80185/track=1165163034/transparent=true/"
+            seamless
+            title="dance"
+          >
+            <a href="http://appx.bandcamp.com/album/logic">Logic by APPX</a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=763587660/size=small/bgcol=ffffff/linkcol=E80185/track=681569375/transparent=true/"
+            seamless
+            title="cascade"
+          >
+            <a href="http://appx.bandcamp.com/album/logic">Logic by APPX</a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=763587660/size=small/bgcol=ffffff/linkcol=E80185/track=494826923/transparent=true/"
+            seamless
+            title="the apology"
+          >
+            <a href="http://appx.bandcamp.com/album/logic">Logic by APPX</a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=763587660/size=small/bgcol=ffffff/linkcol=E80185/track=1552886480/transparent=true/"
+            seamless
+            title="saved"
+          >
+            <a href="http://appx.bandcamp.com/album/logic">Logic by APPX</a>
+          </iframe>
+          <hr />
+
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=193232029/size=small/bgcol=ffffff/linkcol=E80185/transparent=true/"
+            seamless
+            title="mindless thoughts"
+          >
+            <a href="http://appx.bandcamp.com/album/mindless-thoughts">
+              Mindless Thoughts by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=193232029/size=small/bgcol=ffffff/linkcol=E80185/track=325623919/transparent=true/"
+            seamless
+            title="beginnings"
+          >
+            <a href="http://appx.bandcamp.com/album/mindless-thoughts">
+              Mindless Thoughts by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=193232029/size=small/bgcol=ffffff/linkcol=E80185/track=1841688354/transparent=true/"
+            seamless
+            title="prism"
+          >
+            <a href="http://appx.bandcamp.com/album/mindless-thoughts">
+              Mindless Thoughts by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=193232029/size=small/bgcol=ffffff/linkcol=E80185/track=1321797399/transparent=true/"
+            seamless
+            title="rain"
+          >
+            <a href="http://appx.bandcamp.com/album/mindless-thoughts">
+              Mindless Thoughts by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=193232029/size=small/bgcol=ffffff/linkcol=E80185/track=1507577469/transparent=true/"
+            seamless
+            title="savannah"
+          >
+            <a href="http://appx.bandcamp.com/album/mindless-thoughts">
+              Mindless Thoughts by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=193232029/size=small/bgcol=ffffff/linkcol=E80185/track=1978822962/transparent=true/"
+            seamless
+            title="vaccum"
+          >
+            <a href="http://appx.bandcamp.com/album/mindless-thoughts">
+              Mindless Thoughts by APPX
+            </a>
+          </iframe>
+          <iframe
+            style={{ border: 0, width: "100%", height: 42 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=193232029/size=small/bgcol=ffffff/linkcol=E80185/track=3030246084/transparent=true/"
+            seamless
+            title="hollow"
+          >
+            <a href="http://appx.bandcamp.com/album/mindless-thoughts">
+              Mindless Thoughts by APPX
+            </a>
+          </iframe>
 
           <h2 className={classes.musicType} id="lofi">
             lofi
           </h2>
+
           <iframe
             width="100%"
             height="20"
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="out of place"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/737725858&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="salty skin"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/759753076&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
           <iframe
             width="100%"
@@ -615,9 +866,19 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="thick iron fog"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/687978154&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+            title="bodhi"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/741148318&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
+          <iframe
+            width="100%"
+            height="20"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            title="sounds are beings"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/734387275&color=%23e80099&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+
           <h2 className={classes.musicType} id="symphonic">
             symphonic
           </h2>
@@ -701,7 +962,7 @@ export default function Music() {
               Sound Tracks by Wilson Rahn Symphonic
             </a>
           </iframe>
-          <hr />
+
           <h2 className={classes.musicType} id="acoustic">
             acoustic
           </h2>
@@ -1065,10 +1326,14 @@ export default function Music() {
             </a>
           </iframe>
         </Box>
+
         <h2 className={classes.noise}>make more noise.</h2>
 
         <a href="#top">
           <img src={ball} alt="logo" className={classes.logoBottom} />
+        </a>
+        <a href="#top" className={classes.rocket}>
+          <VerticalAlignTopIcon fontSize="large" />
         </a>
       </Box>
     </div>
