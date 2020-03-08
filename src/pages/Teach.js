@@ -4,9 +4,6 @@ import Box from "@material-ui/core/Box";
 import { TwitterTweetEmbed } from "react-twitter-embed";
 import Nav from "../components/Nav";
 
-// import logo from "../img/nameVW.png";
-import ball from "../img/wltvWhite.png";
-
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -32,6 +29,19 @@ const useStyles = makeStyles(theme => ({
 
 export default function Teach() {
   const classes = useStyles();
+  const isMobile = window.innerWidth < 480;
+
+  function Tweety() {
+    if (isMobile) {
+      return (
+        <TwitterTweetEmbed
+          tweetId={"1216904911318736897"}
+          options={{ width: 300 }}
+        />
+      );
+    }
+    return <TwitterTweetEmbed tweetId={"1216904911318736897"} />;
+  }
 
   return (
     <div className={classes.root}>
@@ -54,7 +64,8 @@ export default function Teach() {
             alignItems: "center"
           }}
         >
-          <TwitterTweetEmbed tweetId={"1216904911318736897"} />
+          <Tweety />
+
           <a href="mailto: wltvmusic@gmail.com" className={classes.email}>
             <h2>wltvmusic@gmail.com</h2>
           </a>
