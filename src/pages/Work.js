@@ -52,7 +52,7 @@ export default function Teach() {
             <span role="img" aria-label="emojis">
               🤑😈
             </span>
-            ).
+            )
             <br />
             here is some stuff i have done:
           </h2>
