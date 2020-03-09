@@ -34,6 +34,7 @@ export default function Teach() {
     if (isMobile) {
       return (
         <TwitterTweetEmbed
+          // style={{ alignSelf: "flexStart" }}
           tweetId={"1216904911318736897"}
           options={{ width: 300 }}
         />
