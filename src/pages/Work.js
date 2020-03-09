@@ -54,7 +54,7 @@ export default function Teach() {
             </span>
             )
             <br />
-            here is some stuff i have done:
+            here is some stuff i have done: (omg right)
           </h2>
           <Box
             style={{
