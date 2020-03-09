@@ -857,15 +857,6 @@ export default function Music() {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            title="duplicate pepper skin"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/759753076&color=%23e80099&inverse=true&auto_play=false&show_user=true"
-          ></iframe>
-          <iframe
-            width="100%"
-            height="20"
-            scrolling="no"
-            frameborder="no"
-            allow="autoplay"
             title="bodhi"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/741148318&color=%23e80099&inverse=true&auto_play=false&show_user=true"
           ></iframe>
