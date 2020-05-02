@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
 import { TwitterTweetEmbed } from "react-twitter-embed";
 import Nav from "../components/Nav";
+import Icons from "../components/Icons";
 
 import "../css/teach.css"
 
@@ -91,10 +92,9 @@ export default function Teach() {
         live lite quickstart: <a href="https://youtu.be/7QKY3wFEx7g">youtu.be/7QKY3wFEx7g</a>
         </p>
         </Box>
-
-        <Box style={{height:`64px`}}/>
-        
       </Box>
+      <Icons />
+      <Box style={{height:`64px`}}/>
     </div>
   );
 }

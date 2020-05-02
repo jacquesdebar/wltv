@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
 import Nav from "../components/Nav";
+import Icons from "../components/Icons";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -178,6 +179,9 @@ export default function Teach() {
           </h2>
         </Box>
       </Box>
+
+      <Icons />
+      <Box style={{height:`64px`}}/>
     </div>
   );
 }
