@@ -4,6 +4,7 @@ import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
 import Nav from "../components/Nav";
 import Fanlinks from "../components/Fanlinks";
+import Icons from "../components/Icons";
 
 import ball from "../img/wltvWhite.png";
 import VerticalAlignTopIcon from "@material-ui/icons/VerticalAlignTop";
@@ -1327,6 +1328,9 @@ export default function Music() {
           <VerticalAlignTopIcon fontSize="large" />
         </a>
       </Box>
+
+      <Icons />
+      <Box style={{height:`64px`}}/>
     </div>
   );
 }
