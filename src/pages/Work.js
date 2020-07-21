@@ -121,13 +121,13 @@ export default function Teach() {
             ></iframe>
             <iframe
               className={classes.spotifyTrack}
-              src="https://open.spotify.com/embed/album/6IaFBOBJLlZQ8MJQwL8CSx"
+              src="https://open.spotify.com/embed/album/7pf6xQ4tBnFqeDVsWreGed"
               width="300"
               height="80"
               frameBorder="0"
               allowtransparency="true"
               allow="encrypted-media"
-              title="public theatre anime intro"
+              title="hotel amber room 333"
             ></iframe>
             <iframe
               className={classes.spotifyTrack}
